@@ -1,0 +1,38 @@
+.hidden {
+    display: none;
+  }
+  
+  #imageContainer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .description {
+    margin-top: 10px;
+    max-width: 200px; /* Sesuaikan lebar maksimum sesuai kebutuhan */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body {
+    background: linear-gradient(to right, #FF6EC7, #8EC5E3); /* Ubah warna sesuai keinginan Anda */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    border: 5px solid #000; /* Ubah warna dan ketebalan bingkai sesuai kebutuhan Anda */
+    border-radius: 10px; /* Untuk membuat sudut bingkai lebih bulat */
+    margin: 10px; /* Jarak antara gambar dan bingkai */
+  }
+  
+  .description {
+    border: 2px solid #000; /* Ubah warna dan ketebalan bingkai sesuai kebutuhan Anda */
+    border-radius: 5px; /* Untuk membuat sudut bingkai lebih bulat */
+    padding: 10px; /* Ruang di dalam bingkai */
+  }
+    
